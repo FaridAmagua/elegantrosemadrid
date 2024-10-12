@@ -11,9 +11,9 @@ function App() {
 
   return (
     <>
-      <div className='min-h-screen'>
-        {/* <Navbar></Navbar> */}
-        <Home></Home>
+       <Navbar /> 
+             <div className='min-h-screen pt-16'> {/* Ajusta el padding-top según la altura de tu navbar */}
+        <Home />
       </div>
     </>
   )

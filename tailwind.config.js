@@ -9,6 +9,9 @@ export default {
       fontSize: {
         base: ['20px', '30px'],
       },
+      fontFamily: {
+        playfair: ['"Playfair Display"', 'serif','Poppins'],  // Define la fuente aquí
+      },
     },
   },
   plugins: [],
