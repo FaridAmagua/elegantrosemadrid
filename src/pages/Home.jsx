@@ -2,57 +2,68 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import ImgEli1 from "@/assets/chicas/Elizeli/1.png";
+import ImgEli2 from "@/assets/chicas/Elizeli/2.png";
+import ImgJuliana1 from "@/assets/chicas/Juliana/1.png";
+import  ImgJuliana2 from "@/assets/chicas/Juliana/2.png";
+import  ImgKiara1 from "@/assets/chicas/Kiara/kiara-1.png";
+import  ImgKiara2 from "@/assets/chicas/Kiara/kiara-3.png";
+import  ImgSara1 from "@/assets/chicas/Sara/1.png";
+import  ImgSara2 from "@/assets/chicas/Sara/2.png";
+import  ImgPamela1 from "@/assets/chicas/Pamela/1.webp";
+import  ImgPamela2 from "@/assets/chicas/Pamela/2.png";
+import  ImgEspana from "@/assets/chicas/Bandera/espana.png";
+import  ImgColombia from "@/assets/chicas/Bandera/colombia.png";
+import  ImgBrazil from "@/assets/chicas/Bandera/brazil.png";
 const Home = () => {
   const modelos = [
     {
       nombre: "KIARA",
       edad: "25 años",
       pais: "Colombia",
-      paisImagen: "src/assets/chicas/Bandera/españa.png",
+      paisImagen: ImgEspana,
       imagenes: [
-        "src/assets/chicas/Kiara/kiara-1.png",
-        "src/assets/chicas/Kiara/Kiara-3.png",
-      ],
-    },
-    {
-      nombre: "PAMELA",
-      edad: "30 años",
-      pais: "México",
-      paisImagen: "src/assets/chicas/Bandera/colombia.png",
-      imagenes: [
-        "src/assets/chicas/Pamela/1.webp",
-        "src/assets/chicas/Pamela/2.png",
-      ],
+        ImgKiara1,
+        ImgKiara2      ],
     },
     {
       nombre: "ELIZELI",
       edad: "20 años",
-      pais: "Argentina",
-      paisImagen: "src/assets/chicas/Bandera/brazil.png",
+      pais: "Brazil",
+      paisImagen: ImgBrazil,
       imagenes: [
-        "src/assets/chicas/Elizeli/1.png",
-        "src/assets/chicas/Elizeli/2.png",
+        ImgEli1,
+        ImgEli2,
       ],
     },
     {
       nombre: "SARA",
       edad: "22 años",
       pais: "Chile",
-      paisImagen: "src/assets/chicas/Bandera/españa.png",
+      paisImagen: ImgEspana,
       imagenes: [
-        "src/assets/chicas/Sara/1.png",
-        "src/assets/chicas/Sara/2.png",
+        ImgSara1,
+        ImgSara2,
       ],
     },
     {
       nombre: "JULIANA",
       edad: "20 años",
-      pais: "Perú",
-      paisImagen: "src/assets/chicas/Bandera/brazil.png",
+      pais: ImgBrazil,
+      paisImagen: ImgBrazil,
       imagenes: [
-        "src/assets/chicas/Juliana/1.png",
-        "src/assets/chicas/Juliana/2.png",
+        ImgJuliana1,
+        ImgJuliana2
+      ],
+    },
+    {
+      nombre: "PAMELA",
+      edad: "30 años",
+      pais: "México",
+      paisImagen: ImgColombia,
+      imagenes: [
+        ImgPamela1,
+        ImgPamela2
       ],
     },
   ];
